@@ -9183,6 +9183,7 @@ v112.Raid.Add:AddToogle("ToogleDungeon", {
 	["Title"] = "Raid Dungeon",
 	["Description"] = "",
 	["Default"] = false
+	Callback = function()
 	
 	end
 })
