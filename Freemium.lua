@@ -541,7 +541,8 @@ local v112 = {
         ["Title"] = "Raid"
     }),
     ["Dungeon"] v11:AddTab({
-        ["Title"] = "Dungeon
+        ["Title"] = "Dungeon"
+    }),
     ["Race"] = v111:AddTab({
         ["Title"] = "Race"
     }),
