@@ -540,9 +540,6 @@ local v112 = {
     ["Raid"] = v111:AddTab({
         ["Title"] = "Raid"
     }),
-    ["Dungeon"] v11:AddTab({
-        ["Title"] = "Dungeon"
-    }),
     ["Race"] = v111:AddTab({
         ["Title"] = "Race"
     }),
@@ -551,6 +548,9 @@ local v112 = {
     }),
     ["Misc"] = v111:AddTab({
         ["Title"] = "Kh\195\161c"
+    })
+    ["Dungeon"] = v111:AddTab({
+        ["Title"] = "Dungeon"
     })
 }
 local v113 = vu110.Options
