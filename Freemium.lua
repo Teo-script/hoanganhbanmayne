@@ -9178,6 +9178,15 @@ spawn(function()
         end
     end)
 end)
+v112.Raid.Section("Dungeon")
+v112.Raid.Add:AddToogle("ToogleDungeon", {
+	["Title"] = "Raid Dungeon",
+	["Description"] = "",
+	["Default"] = false
+	
+	end
+})
+
 v112.Race:AddButton({
     ["Title"] = "\196\144\225\187\129n Th\225\187\157i Gian",
     ["Description"] = "",
