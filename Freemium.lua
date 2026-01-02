@@ -257,7 +257,7 @@ task.spawn(function()
         end
     end
 end)
-shared.LoaderTitle = "By TrongNguyen"
+shared.LoaderTitle = "By HoangAnh"
 shared.LoaderKeyFrames = {
     {
         1,
@@ -3126,7 +3126,7 @@ vu341.BorderSizePixel = 0
 vu341.Position = UDim2.new(0.020833336999999993, 0, 0.10528908129999999, 0)
 vu341.Size = UDim2.new(0, 50, 0, 50)
 vu341.Draggable = true
-vu341.Image = "http://www.roblox.com/asset/?id=124194333243835"
+vu341.Image = "http://www.roblox.com/asset/?id=92029203936745"
 v342.Parent = vu341
 v342.CornerRadius = UDim.new(0, 12)
 vu343.Parent = vu341
@@ -10620,7 +10620,7 @@ spawn(function()
     end
 end)
 vu110:Notify({
-    ["Title"] = "Maru Hub",
+    ["Title"] = "Skibidi Hub",
     ["Content"] = "T\225\186\163i Xong",
     ["Duration"] = 10
 })
