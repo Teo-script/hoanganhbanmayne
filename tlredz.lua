@@ -3741,7 +3741,7 @@ l_ImageButton_0.MouseButton1Click:Connect(function()
         v466:Minimize(true)
     end
 end)
-local v484 = v466:MakeTab({"Discord","rbxassetid://100173004454294"})
+local v484 = v466:MakeTab({"Discord","rbxassetid://15298567397"})
 local v485 = v466:MakeTab({"Farming","rbxassetid://15298567397"})
 local v486 = v466:MakeTab({"Auto Fishing","rbxassetid://15298567397"})
 local v487 = v466:MakeTab({"Quest | Items","rbxassetid://15298567397"})
