@@ -13,27 +13,27 @@ Window:AddMinimizeButton({
 
 local TabDiscord = Window:MakeTab({"Discord", "info"})
 
-local TabFarm = Window:MakeTab({"Farm", "home"})
+local TabFarm = Window:MakeTab({"Nông Trại", "home"})
 
-local TabSea = Window:MakeTab({"Sea", "waves"})
+local TabSea = Window:MakeTab({"Biển", "waves"})
 
-local TabFish = Window:MakeTab({"Fishing", "fish"})
+local TabFish = Window:MakeTab({"Câu Cá", "fish"})
 
-local TabItem = Window:MakeTab({"Quest/Items", "swords"})
+local TabItem = Window:MakeTab({"Vật Phẩm", "swords"})
 
-local TabFruit = Window:MakeTab({"Fruit/Raid", "cherry"})
+local TabFruit = Window:MakeTab({"Trái / Raid", "cherry"})
 
-local TabServer = Window:MakeTab({"Sever", "gem"})
+local TabServer = Window:MakeTab({"Máy Chủ", "gem"})
 
-local TabStats = Window:MakeTab({"Stats", "signal"})
+local TabStats = Window:MakeTab({"Chỉ Số", "signal"})
 
-local TabTeleport = Window:MakeTab({"Teleport", "locate"})
+local TabTeleport = Window:MakeTab({"Dịch Chuyển", "locate"})
 
-local TabVisual = Window:MakeTab({"Visual", "user"})
+local TabVisual = Window:MakeTab({"Giao Diện", "user"})
 
-local TabShop = Window:MakeTab({"Shop", "shoppingCart"})
+local TabShop = Window:MakeTab({"Cửa Hàng", "shoppingCart"})
 
-local TabSettings = Window:MakeTab({"Setting", "settings"})
+local TabSettings = Window:MakeTab({"Cài Đặt", "settings"})
 
 TabDiscord:AddDiscordInvite({
     Name = "Nel Nagi | Community",
@@ -710,9 +710,9 @@ task.spawn(function()
 end)
 
 ------------------------------------------------
--- 🌈 CHỌN VŨ KHÍ
+-- 🌈 CHỌN VŨ KHÍ FARM
 ------------------------------------------------
-local ModeList = {"Melee", "Sword", "Gun", "Fruits"}
+local Weapons = {"Melee", "Sword", "Gun", "Fruits"}
 TabFarm:AddDropdown({
 	Name = "Chọn Vũ Khí Farm",
 	Options = ModeList,
