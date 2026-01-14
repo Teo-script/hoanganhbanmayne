@@ -8121,6 +8121,14 @@ spawn(function()
         end
     end
 end)
+local _ = v491:AddSection({"Farm Dungeon"})
+     Title = "Auto Dungeon",
+     Description = "Tự Động Dungeon",
+     Default = false
+     Callback = function(v1078)
+              -- Chưa có chức năng
+     end
+})
 local _ = v492:AddSection({"Fruits"})
 v492:AddToggle({
     Name = "Auto Random Fruits",
