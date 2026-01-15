@@ -33,7 +33,8 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
      local Tab1o = MakeTab({Name = "Script Farm"})
      local Tab2o = MakeTab({Name = "Script Kaitun"})
      local Tab3o = MakeTab({Name = "Auto Race"})
-     local Tab4o = MakeTab({Name = "Tổng Hợp Khác"})
+     local Tab4o = MakeTab({Name = "Hop Sever"})
+     local Tab5o = MakeTab({Name = "Tổng Hợp Khác"})
      
 ------- BUTTON
     
@@ -82,9 +83,60 @@ getgenv().Key = "JxmTPYUFGcxIPqI"
 loadstring(game:HttpGet("https://raw.githubusercontent.com/obiiyeuem/vthangsitink/main/BananaHub.lua"))()
   end
   })
-  AddButton(Tab4o, {
+  AddButton(Tab5o, {
      Name = "DacCauHub TongHop",
     Callback = function()
 	  loadstring(game:HttpGet("https://raw.githubusercontent.com/Luongdaynetroi/ScriptTongHop/refs/heads/main/.lua"))()
   end
   }) 
+  AddButton(Tab1o, {
+     Name = "TrongNguyen Hub",
+    Callback = function()
+	  getgenv().Team = "Pirates" 
+loadstring(game:HttpGet("https://raw.githubusercontent.com/trongdeptraihucscript/Main/refs/heads/main/Hoangtrongdepzai.lua"))()
+  end
+  })
+  AddButton(Tab1o, {
+     Name = "NazuX Main",
+    Callback = function()
+	  repeat wait() until game:IsLoaded() and game.Players.LocalPlayer 
+loadstring(game:HttpGet("https://luacrack.site/raw.php/NguyenAnhKhoaVN_2279/raw/Main-NazuXHubBF"))()
+  end
+  })
+  AddButton(Tab1o, {
+     Name = "Blue X Hub",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/Dev-BlueX/BlueX-Hub/refs/heads/main/Main.lua"))()
+  end
+  })
+  AddButton(Tab1o, {
+     Name = "Gravity Hub",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/Dev-GravityHub/BloxFruit/refs/heads/main/Main.lua"))()
+  end
+  })
+  AddButton(Tab1o, {
+     Name = "NightX Hub",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/WhiteX1208/Scripts/refs/heads/main/BF-Beta.lua"))()
+  end
+  })
+  AddButton(Tab5o, {
+     Name = "Teddy Hop Boss By NightX",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/WhiteX1208/CrackScript/refs/heads/main/TeddyHub/TeddyHopBossCrack.luau"))()
+  end
+  })
+  AddButton(Tab5o, {
+     Name = "NightX Hub Hop Boss",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/WhiteX1208/Scripts/refs/heads/main/HopScript.luau"))()
+  end
+  })
+  AddButton(Tab1o, {
+     Name = "Teddy Farm",
+    Callback = function()
+	  repeat task.wait() until game:IsLoaded() and game:GetService("Players") and game.Players.LocalPlayer and game.Players.LocalPlayer:FindFirstChild("PlayerGui")
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Teddyseetink/Haidepzai/refs/heads/main/TEDDYHUB-FREEMIUM"))()
+  end
+  })
