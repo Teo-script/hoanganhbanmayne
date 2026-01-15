@@ -121,13 +121,13 @@ loadstring(game:HttpGet("https://luacrack.site/raw.php/NguyenAnhKhoaVN_2279/raw/
 	  loadstring(game:HttpGet("https://raw.githubusercontent.com/WhiteX1208/Scripts/refs/heads/main/BF-Beta.lua"))()
   end
   })
-  AddButton(Tab5o, {
+  AddButton(Tab4o, {
      Name = "Teddy Hop Boss By NightX",
     Callback = function()
 	  loadstring(game:HttpGet("https://raw.githubusercontent.com/WhiteX1208/CrackScript/refs/heads/main/TeddyHub/TeddyHopBossCrack.luau"))()
   end
   })
-  AddButton(Tab5o, {
+  AddButton(Tab4o, {
      Name = "NightX Hub Hop Boss",
     Callback = function()
 	  loadstring(game:HttpGet("https://raw.githubusercontent.com/WhiteX1208/Scripts/refs/heads/main/HopScript.luau"))()
